@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Teko:wght@700&display=swap");
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: white;
+}
+.navbar {
+  background-color: #dd2c00;
+}
+
+/*---- MENU LINKS ----*/
+.nav-link {
+  cursor: pointer;
+  font-family: "Teko";
+  letter-spacing: 1px;
+  font-size: 20px;
+  border-top: 3px solid #dd2c00;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-link :active,
+.nav-link :focus {
+  border-top: 3px solid whitesmoke;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 3px solid whitesmoke;
+}
+
+.menuIcon {
+  color: white;
+}
+
+.navbar-toggler {
+  lighting-color: white;
+}
